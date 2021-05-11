@@ -1,0 +1,22 @@
+{
+  "name": "project-105-portfolio-bootstrap",
+  "version": "1.0.0",
+  "description": "A Portfolio based on Bootstrap",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/style.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Salman-Farshe/MyPortfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Salman-Farshe/MyPortfolio/issues"
+  },
+  "homepage": "https://github.com/Salman-Farshe/MyPortfolio#readme",
+  "devDependencies": {
+    "bootstrap": "^5.0.0"
+  }
+}
