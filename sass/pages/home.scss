@@ -1,0 +1,25 @@
+.main-header{
+    img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .info-type{
+        background-color: black;
+    }
+
+    .info-all{
+        .home, .resume, .work, .contact{
+            width: 25%;
+
+            &:hover{
+                opacity: 0.8;
+                cursor: pointer;
+            }
+
+            @media only screen and (min-width: 1400px){
+                padding: 5rem !important;
+            }
+        }
+    }
+}
